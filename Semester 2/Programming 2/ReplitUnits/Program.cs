@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using DefaultNamespace;
 using ReplitUnits.Week1;
 
 void ToConsole(String msg)
@@ -51,6 +52,19 @@ switch (weekNum)
         }
         break;
     
+    case 2:
+        switch (unitNum)
+        {
+            case (1):
+                Numbers2_2.Main();
+                break;
+            case (4):
+                Casting.Main();
+                break;
+        }
+
+        break;
+
     default:
         ToConsole("Not an available Week!");
         break;
